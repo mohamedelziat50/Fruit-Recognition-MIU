@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruity-Detect - Fruits Recognition</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar-container">
+        <div class="navbar">
+            <div class="nav-left">
+                <img src="../images/fruity-detect-logo.png" alt="Fruity-Detect Logo" class="logo">
+                <span class="logo-text">Fruity-Detect</span>
+            </div>
+            <div class="nav-right">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#visit" class="nav-link">Visit</a>
+                <a href="#project" class="nav-link">Project</a>
+                <a href="#service" class="nav-link">Service</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-container">
+            <div class="home-left">
+                <h1 class="main-title">FRUITS</h1>
+                <h2 class="sub-title">RECOGNITION</h2>
+                <div class="credits">
+                    <p>Mohamed Hesham - 2023/00428</p>
+                    <p>Presented To: Dr. Alaa Hamdy</p>
+                </div>
+                <a href="https://github.com/mohamedelziat50/Fruit-Recognition-MIU" target="_blank" class="visit-button">Visit Us</a>
+            </div>
+            <div class="home-right">
+                <div class="image-container">
+                    <img src="../images/fruit-bowl.png" alt="Fruit Bowl" class="fruit-bowl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Section -->
+    <section id="visit" class="section visit-section">
+        <div class="section-content">
+            <h2 class="section-title">Visit Section</h2>
+            <p class="section-text">This project is a fruit image classifier built with machine learning and image processing techniques. The website UI is designed to let users upload fruit images for real-time prediction and classification.</p>
+            <div class="image-wrapper">
+                <img src="../images/all-fruits.png" alt="All Fruits Dataset" class="section-image fruits-image">
+                <p class="image-caption">Dataset Fruit Categories (230 Classes)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="section project-section">
+        <div class="section-content">
+            <h2 class="section-title">Project Section</h2>
+            <p class="section-text">This project uses a simple classical computer-vision approach. The fruit image is processed by converting to the saturation channel (S-channel) of the HSV color space. A binary mask is created using thresholding, which isolates the fruit region. This segmented mask is then used to extract features for classification.</p>
+            <p class="dataset-link">Dataset Reference: <a href="https://www.kaggle.com/datasets/moltean/fruits" target="_blank" class="dataset-hyperlink">Fruits-360 Dataset</a></p>
+            <div class="image-wrapper">
+                <img src="../images/fruit-recognition-pipeline.png" alt="Fruit Recognition Pipeline" class="section-image pipeline-image" id="pipeline-image">
+                <p class="image-caption">Fruit Recognition Model Pipeline</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section id="service" class="section service-section">
+        <div class="service-content">
+            <h2 class="service-title">Try It Yourself!</h2>
+            <div class="service-card">
+                <h3 class="card-title">Fruit Image Prediction</h3>
+                <div class="upload-container">
+                    <input type="file" id="fruit-image" accept="image/*" class="file-input">
+                    <div id="image-preview" class="image-preview"></div>
+                    <button id="predict-btn" class="predict-button">Predict</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
