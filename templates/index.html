@@ -78,12 +78,17 @@
             <h2 class="service-title">Try It Yourself!</h2>
             <div class="service-card">
                 <h3 class="card-title">Fruit Image Prediction</h3>
+                <!-- Prediction result display, shows the prediction result -->
+                <div id="prediction-result" class="prediction-result"></div>
                 <div class="upload-container">
-                    <input type="file" id="fruit-image" accept="image/*" class="file-input">
+                    <!-- Image input, allows user to select an image file -->
+                    <input type="file" id="fruit-image" accept="image/*" class="file-input" name="fruitImage">
+                    
+                    <!-- Image preview, shows the selected image -->
                     <div id="image-preview" class="image-preview"></div>
-                    <form action='/predict', method="post" enctype="multipart/form-data">
-                        <button id="predict-btn" class="predict-button" type="submit">Predict</button>
-                    </form>
+ 
+                    <!-- Predict button, handles requests to /predict endpoint in the javascript file -->
+                    <button id="predict-btn" class="predict-button">Predict</button>
                 </div>
             </div>
         </div>
