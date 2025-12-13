@@ -26,6 +26,7 @@ pip install -r requirements.txt
 
 **4. Ensure you have the trained model file:**
 Make sure `fruit_model.joblib` is present in the project root directory.
+**Note:** The model file (~2GB) is not included in the repository due to size limitations. You'll need to generate it using the training notebook or obtain it separately.
 
 **5. Run the Flask application:**
 ```bash
