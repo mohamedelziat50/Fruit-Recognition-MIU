@@ -41,6 +41,4 @@ predictBtn.addEventListener('click', function() {
         alert('Please select an image first!');
         return;
     }
-    
-    alert('Prediction functionality coming soon!');
 });
