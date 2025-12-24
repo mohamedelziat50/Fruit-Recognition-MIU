@@ -3,6 +3,8 @@
 <div align="center">
   <img src="static/images/fruity-detect-logo.png" alt="Fruity Detect Logo" width="200"/>
   
+  <br/><br/>
+  
   [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
   [![Flask](https://img.shields.io/badge/framework-Flask-lightgrey.svg)](https://flask.palletsprojects.com/)
   [![OpenCV](https://img.shields.io/badge/OpenCV-4.12.0-green.svg)](https://opencv.org/)
@@ -10,6 +12,8 @@
   
   📊 **Dataset**: [Fruits-360](https://www.kaggle.com/datasets/moltean/fruits)
 </div>
+
+---
 
 A web-based fruit classification system that uses classical computer vision and machine learning to identify fruits from images. The system can classify **230 different fruit types** from the Fruits-360 dataset. Users can upload fruit images through a web interface and receive real-time predictions with confidence scores. The system follows a classical computer vision pipeline that processes images through multiple stages before classification.
 
