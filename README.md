@@ -3,7 +3,7 @@
 <div align="center">
   <img src="static/images/fruity-detect-logo.png" alt="Fruity Detect Logo" width="200"/>
   
-  <br/><br/>
+  <br/>
   
   [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
   [![Flask](https://img.shields.io/badge/framework-Flask-lightgrey.svg)](https://flask.palletsprojects.com/)
