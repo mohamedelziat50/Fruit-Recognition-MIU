@@ -15,6 +15,7 @@
 
 ---
 
+## Project Overview
 A web-based fruit classification system that uses classical computer vision and machine learning to identify fruits from images. The system can classify **230 different fruit types** from the Fruits-360 dataset. Users can upload fruit images through a web interface and receive real-time predictions with confidence scores. The system follows a classical computer vision pipeline that processes images through multiple stages before classification.
 
 ## Demo
