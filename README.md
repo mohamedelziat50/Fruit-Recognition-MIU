@@ -1,7 +1,7 @@
 # 🍎 Fruit Recognition System
 
 <div align="center">
-  <img src="static/images/fruity-detect-logo.png" alt="Fruity Detect Logo" width="200"/>
+  <img src="static/images/fruit-bowl.png" alt="Fruity Detect Logo" width="200"/>
   
   <br/>
   
