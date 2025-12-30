@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # Load the trained model bundle
 # The model bundle contains: 'model', 'scaler', 'label_encoder'
-model_path = "fruit_model.joblib"
+model_path = "fruit_model_compressed.joblib"
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")
     model_bundle = joblib.load(model_path)
