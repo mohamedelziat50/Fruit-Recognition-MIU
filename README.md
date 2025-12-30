@@ -1,7 +1,7 @@
-# 🍎🍌🍊 Fruit Recognition System
+# 🍎 Fruit Recognition System
 
 <div align="center">
-  <img src="static/images/fruity-detect-logo.png" alt="Fruity Detect Logo" width="200"/>
+  <img src="static/images/fruit-bowl.png" alt="Fruity Detect Logo" width="200"/>
   
   <br/>
   
@@ -22,11 +22,10 @@ A web-based fruit classification system that uses classical computer vision and 
 
 ### Overview
 
-<!-- Add your overview GIF/video here -->
-
-### Predictions
-
-<!-- Add your predictions GIF/video here -->
+- **Home Page:** ![Website Overview 1](https://github.com/user-attachments/assets/387f3e94-bcbb-4df3-b425-1f80d63aba58)
+- **Visit Section:** ![Website Overview 2](https://github.com/user-attachments/assets/6b418056-8b5e-44cf-a1fb-831cc800b2e3)
+- **Project Section:** ![Website Overview 3](https://github.com/user-attachments/assets/f0e78c9a-6cea-446e-a852-4af82e663b71)
+- **Predictions:** ![Fruit Recognition Predictions Demo](https://github.com/user-attachments/assets/21fbbccb-80cd-4344-96fb-71ce96d09814)
 
 ## How It Works
 
