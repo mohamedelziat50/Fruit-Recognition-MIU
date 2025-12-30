@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # Load the trained model bundle
 # The model bundle contains: 'model', 'scaler', 'label_encoder'
-model_path = "fruit_model_compressed.joblib"
+model_path = "fruit_model.joblib"
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")
     # Access the model file on disk as if it were in memory, without loading the entire file into RAM at once. (For deployment purposes)
