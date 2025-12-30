@@ -8,7 +8,4 @@ venv/
 # Model files (too large for git)
 *.joblib
 
-# Compressed model file
-!fruit_model_compressed.joblib
-
 
