@@ -17,7 +17,8 @@ app = Flask(__name__)
 model_path = "fruit_model_compressed.joblib"
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")
-    model_bundle = joblib.load(model_path)
+    # Access the model file on disk as if it were in memory, without loading the entire file into RAM at once. (For deployment purposes)
+    model_bundle = joblib.load(model_path, mmap_mode='r')
 
 # Extract components from the bundle
 rf_model = model_bundle['model']
